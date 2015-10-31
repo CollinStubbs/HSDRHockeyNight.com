@@ -7,6 +7,7 @@
 body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-image: url(../img/background.png);
 }
 
 .text-muted {
@@ -14,7 +15,7 @@ body {
 }
 
 .text-primary {
-    color: #fed136;
+   
 }
 
 p {
@@ -346,6 +347,21 @@ section h3.section-subheading {
 }
 #notext {
     margin-bottom: 45px;   
+}
+#aboutText {
+    padding-top: 75px;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #0099CB;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 700;
+}
+#donlink {
+    color: #007BA3;
+}
+.info {
+    font-weight: 700;  
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 @media(min-width:768px) {
     section {
