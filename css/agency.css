@@ -35,14 +35,14 @@ a.active {
 }
 
 a {
-    color: #fed136;
+    color: #FFF;
 }
 
 a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #fec503;
+    color: #007BA3;
 }
 
 h1,
@@ -75,6 +75,11 @@ h6 {
     font-weight: 700;
     color: #fff;
     background-color: #007BA3;
+}
+
+#genLogo{
+    width: 80%;
+    height: 80%;
 }
 
 .btn-primary:hover,
@@ -337,7 +342,6 @@ section h3.section-subheading {
     text-transform: none;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
-    font-style: italic;
     font-weight: 400;
 }
 
@@ -369,7 +373,7 @@ section h3.section-subheading {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba(254,209,54,.9);
+    background: #FFF;
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -411,7 +415,24 @@ section h3.section-subheading {
     margin: 0;
     text-transform: none;
 }
-
+#about {
+    background-color: #0099CB;   
+}
+#HSDRPhilo {
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #FBFBFB;
+    font-style: none;
+    font-size: 22px;
+}
+#genPhilo {
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #FBFBFB;
+    font-style: none;
+    font-size: 22px;
+}
+#genlink {
+    color: #002D62;   
+}
 #portfolio .portfolio-item .portfolio-caption p {
     margin: 0;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -654,8 +675,8 @@ aside.clients img {
 }
 
 section#contact {
-    background-color: #222;
-    background-image: url(../img/map-image.png);
+    background-color: #DC0302;
+  
     background-position: center;
     background-repeat: no-repeat;
 }
