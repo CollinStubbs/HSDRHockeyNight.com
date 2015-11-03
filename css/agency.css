@@ -17,7 +17,18 @@ body {
 .text-primary {
    
 }
-
+  
+.sRow {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    
+}
+.sobject {
+    width: 33.333333%;   
+    float: left;
+    text-align: center;
+}
 p {
     font-size: 14px;
     line-height: 1.75;
